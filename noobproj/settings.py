@@ -135,12 +135,6 @@ MEDIA_ROOT = PROJECT_DIR.parent.parent.child('media')
 MEDIA_URL = '/media/'
 USE_I18N = True
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'snehithjk@gmail.com'
-EMAIL_HOST_PASSWORD = 'dimpsujks2020sdsdss'
-EMAIL_PORT = 587
-
 LOGIN_URL = 'login'
 
 LOGIN_REDIRECT_URL = 'home'
