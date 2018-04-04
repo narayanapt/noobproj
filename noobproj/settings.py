@@ -140,3 +140,9 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'snehithjk@gmail.com'
 EMAIL_HOST_PASSWORD = 'dimpsujks2020sdsdss'
 EMAIL_PORT = 587
+
+LOGIN_URL = 'login'
+
+LOGIN_REDIRECT_URL = 'home'
+
+LOGOUT_REDIRECT_URL = 'login'
